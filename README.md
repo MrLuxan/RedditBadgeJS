@@ -23,4 +23,4 @@ Create a canvas element with the data-RedditBadgeUser tag and call RedditBadge.L
 ```
  
 ---
-Dont want to bother with the library , just want the image ? use [RedditBadge](https://github.com/MrLuxan/RedditBadge)
+Want a PHP verison ? [RedditBadge](https://github.com/MrLuxan/RedditBadge)
