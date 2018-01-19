@@ -14,9 +14,11 @@ Create a canvas element with the data-RedditBadgeUser tag and call RedditBadge.L
 
 	<script src="RedditBadge.js"></script>
 	<script>
-		window.addEventListener("load", function() {
-  			RedditBadge.LoadPagesBadges();
-  			RedditBadge.BuildBadge(document.getElementById("RedditBadge"),"MrLuxan")
+		window.addEventListener("load", function() {  			
+			// Loads one badge
+  			RedditBadge.BuildBadge(document.getElementById("RedditBadge"),"MrLuxan");
+			//Loads all Canvas with RedditBadgeUser data tag
+			RedditBadge.LoadPagesBadges(); 
 		});
 	</script>
 </body>
